@@ -1,0 +1,46 @@
+# Created by https://www.toptal.com/developers/gitignore/api/codeigniter
+# Edit at https://www.toptal.com/developers/gitignore?templates=codeigniter
+
+### CodeIgniter ###
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+#codeigniter 3
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+/vendor/
+
+assets/vendor/node_modules/*
+application/config/config.php
+
+### CodeIgniter Patch ###
+
+# End of https://www.toptal.com/developers/gitignore/api/codeigniter
+assets/img/employee/*
+mycsv.csv
+
+# document
+assets/document/surat/*
+!assets/document/surat.htaccess
+
+# temporary files
+assets/temp/files/masterData/*
+!assets/temp/files/masterData/.masterData
+assets/temp/files/ptk/*
+!assets/temp/files/ptk/.ptk-temp-files
+
+# freefilesync temp file
+.sync.ffs_db
+
+# Test file used for trying the snippest
+application/controllers/Test.php
